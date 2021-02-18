@@ -23,3 +23,8 @@ Step3: Setup/install jenkins
   - Push the artifacts on tomcat server.
 
 Note: Link to access jenkins provided in email.
+
+Tools used in deployment:
+1. Jenkins- Integration tool
+2. Git- Version maintaining
+3. Tomcat server -for deployment of website.
