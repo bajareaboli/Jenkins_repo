@@ -2,9 +2,10 @@
 # Small App as a part of  Myob technical challenge.
 
 Approach:
-  - write a simple code
+  - Write a simple code
   - Build and compile the code
-  - Push on tomcat server
+  - Push on tomcat serve
+  - Automate deployment using jenkins
 
 
 Step1: setup/install java env
@@ -27,4 +28,4 @@ Note: Link to access jenkins provided in email.
 # Tools used in deployment:
 1. Jenkins- Integration tool
 2. Git- Version maintaining
-3. Tomcat server -for deployment of website.
+3. Tomcat server -for deployment of website
