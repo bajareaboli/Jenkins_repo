@@ -21,3 +21,5 @@ Step3: Setup/install jenkins
   - Created the jenkins job to automate the code build.
   - This will build the job on 1st of every month.
   - Push the artifacts on tomcat server.
+
+Note: Link to access jenkins provided in email.
