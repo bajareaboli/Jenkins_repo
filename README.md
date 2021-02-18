@@ -24,7 +24,7 @@ Step3: Setup/install jenkins
 
 Note: Link to access jenkins provided in email.
 
-Tools used in deployment:
+# Tools used in deployment:
 1. Jenkins- Integration tool
 2. Git- Version maintaining
 3. Tomcat server -for deployment of website.
