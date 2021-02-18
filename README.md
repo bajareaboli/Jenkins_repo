@@ -28,15 +28,15 @@ Note: Link to access jenkins provided in email.
 # Tools used in Deployment:
 1. Jenkins- Integration tool 
    - Plugins used:
-            - git plugin for source code management 
+            > Git plugin for source code management 
    - Build trigger method used:
-            - Build periodically
+            > Build periodically
    - Build env:
-            - Execute shell
+            > Execute shell
    - Post-Build:
-            - Prepare test reports
-            - Deploy war fiel to container on server
-            - Delete workspace to save memory
+            > Prepare test reports
+            > Deploy war fiel to container on server
+            > Delete workspace to save memory
 
 3. Git- Version maintaining
 4. Tomcat server -for deployment of website
