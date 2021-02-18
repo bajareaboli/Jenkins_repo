@@ -1,5 +1,5 @@
 
-# Small App as a part of  Myob technical challenge.
+# Deployment of Small-App is a part of  MYOB Technical Challenge.
 
 Approach:
   - Write a simple code
@@ -25,7 +25,18 @@ Step3: Setup/install jenkins
 
 Note: Link to access jenkins provided in email.
 
-# Tools used in deployment:
-1. Jenkins- Integration tool
-2. Git- Version maintaining
-3. Tomcat server -for deployment of website
+# Tools used in Deployment:
+1. Jenkins- Integration tool 
+   Plugins used:
+            - git plugin for source code management 
+   Build trigger method used:
+            - Build periodically
+   Build env:
+            - Execute shell
+  Post-Build:
+            - Prepare test reports
+            - Deploy war fiel to container on server
+            - Delete workspace to save memory
+
+3. Git- Version maintaining
+4. Tomcat server -for deployment of website
