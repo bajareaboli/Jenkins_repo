@@ -1,10 +1,23 @@
-# Jenkins_repo
-Added Small App as a part of  Myob technical challenge.
-1. created a simple project in java.
-2. commited changes to myob branch.
+
+# Small App as a part of  Myob technical challenge.
+
+Approach:
+  - write a simple code
+  - Build and compile the code
+  - Push on tomcat server
 
 
-setup the jenkins 
-1. created the jenkins job to automate the code build.
-2. This will build the job on 1st of every month.
-3. Push the artifacts on tomcat server.
+Step1: setup/install java env
+
+  Created a simple project in java.
+  
+Step2: Setup/install git
+
+  Created a branch myob branch.
+  Commited and pushed the changes to git hub.
+    
+Step3: Setup/install jenkins 
+
+  Created the jenkins job to automate the code build.
+  This will build the job on 1st of every month.
+  Push the artifacts on tomcat server.
